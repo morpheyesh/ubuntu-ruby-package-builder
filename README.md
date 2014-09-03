@@ -15,21 +15,29 @@ A few scripts to make it easy to build Ruby .deb packages on Ubuntu.
 
 All scripts require 'fpm' to create the .deb.
 
+
+### To build a Ruby 2.0.0-p451 package:
+
+    wget -O- -q https://raw.github.com/sethcall/ubuntu-ruby-package-builder/master/build-deb-ruby-2.0.0-p451.sh | sh
+
+
+
+
 ### To build a Ruby 2.0.0-p353 package:
 
-    wget -O- -q https://raw.github.com/morpheyesh/ubuntu-ruby-package-builder/master/build-deb-ruby-2.0.0-p353.sh | sh
-    
+    wget -O- -q https://raw.github.com/sethcall/ubuntu-ruby-package-builder/master/build-deb-ruby-2.0.0-p353.sh | sh
+
 
 ### To build a Ruby 2.0.0-p247 package:
 
     wget -O- -q https://raw.github.com/sethcall/ubuntu-ruby-package-builder/master/build-deb-ruby-2.0.0-p247.sh | sh
-    
-    
+
+
 ### To build a Ruby 2.0.0-p0 package:
 
     wget -O- -q https://raw.github.com/sethcall/ubuntu-ruby-package-builder/master/build-deb-ruby-2.0.0-p0.sh | sh
-    
-    
+
+
 ### To build a Ruby 1.9.3-p327 package:
 
     wget -O- -q https://raw.github.com/sethcall/ubuntu-ruby-package-builder/master/build-deb-ruby-1.9.3-p327.sh | sh
@@ -43,4 +51,3 @@ All scripts require 'fpm' to create the .deb.
 ### To build a Ruby 1.9.2-p290 package:
 
     wget -O- -q https://raw.github.com/sethcall/ubuntu-ruby-package-builder/master/build-deb-ruby-1.9.2-p290.sh | sh
-    
