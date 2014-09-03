@@ -1,7 +1,9 @@
 #!/bin/sh
 
-version=2.0
+version=2.0.0
 patch=p353
+
+version1=2.0
 rubyversion=$version-$patch
 rubysrc=ruby-$rubyversion.tar.bz2
 checksum=20eb8f067d20f6b76b7e16cce2a85a55
@@ -20,7 +22,7 @@ fi
 
 echo "Unpacking $rubysrc"
 tar -jxf $rubysrc
-cd ruby-$rubyversion
+cd ruby-$version1
 ./configure --prefix=/usr/local --disable-install-doc --enable-shared && make && make install DESTDIR=$destdir
 
 cd ..
