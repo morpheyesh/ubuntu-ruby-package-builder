@@ -1,6 +1,6 @@
 #!/bin/sh
 
-version=2.0.0
+version=2.0
 patch=p353
 rubyversion=$version-$patch
 rubysrc=ruby-$rubyversion.tar.bz2
